@@ -1,0 +1,44 @@
+#quote-box {
+  background: whitesmoke;
+  width: 30vw;
+  //   min-height: 25vh;
+}
+#text {
+  padding: 1rem;
+}
+#text::before {
+  content: ' ';
+  background-image: url(../assets/quote.svg);
+  background-size: 28px 28px;
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+  margin-right: 0.7rem;
+}
+#author {
+  margin: 0 1rem;
+  text-align: end;
+}
+.btns-container {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+#new-quote {
+  color: aliceblue;
+}
+
+#tweet-quote {
+  // background-image: url(../assets/twitter.svg);
+  // background-size: 28px 28px;
+}
+#tumblr-quote {
+  background-image: url(../assets/tumblr.svg);
+  background-size: 28px 28px;
+  height: 28px;
+  width: 28px;
+}
+.twitter-icon {
+  height: 28px;
+  width: 28px;
+}
